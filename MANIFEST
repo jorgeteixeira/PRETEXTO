@@ -1,0 +1,12 @@
+Makefile.PL
+MANIFEST
+README
+bin/
+corpus/
+lib/PRETEXTO.pm
+lib/PRETEXTO/
+web_interface/cgis
+web_interface/css
+web_interface/images
+web_interface/installers
+web_interface/templates

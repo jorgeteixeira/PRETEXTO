@@ -1,0 +1,41 @@
+PRETEXTO version 0.01
+=====================
+
+"PRETEXTO" is NER system for portuguese based on a bootstrapping approach. Additional details regarding this project are published in:
+
+	Jorge Teixeira, Luís Sarmento, Eugénio Oliveira. (2011) “A Bootstrapping Approach for Training a NER with Conditional Random Fields” Progress in Artificial Intelligence (LNAI 7026), 15th Portuguese Conference on Artificial Intelligence, EPIA 2011, Lisbon, Portugal, October 10-13 , 2011, pp. 664-678, (nominee for Best Paper Award)
+	[http://paginas.fe.up.pt/~niadr/PUBLICATIONS/2011/epia_tema_2011.pdf]
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make install
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Lingua::Jspell
+  LSP::LSP
+  LSP::Utils
+  LWP::Simple
+  XML::Simple
+  JSON
+  DBI
+  Encode
+
+COPYRIGHT AND LICENCE
+
+Put the correct copyright and licence information here.
+
+Copyright (C) 2012 by Jorge Teixeira
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself, either Perl version 5.10.0 or,
+at your option, any later version of Perl 5 you may have available.
+
+
